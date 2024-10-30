@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+#logo {
+    width: 150px;
+    height: 90px;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    color:aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:'Kdam Thorm Pro', sans-serif;
+}
+
+li:hover {
+    color: goldenrod;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.column {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.img1{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display:flex;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BNDU5ODI5MTQtYjE5ZC00ZmZiLThhZjgtYjY3YjczNWZiMTdhXkEyXkFqcGdeQXVyNzE3NTExMjk@._V1_.jpg);
+   
+}
+
+.img2 {
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/mF2ps7THAcU/maxresdefault.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img3 {
+    width: 100%;
+    background-image: url(https://tv-fanatic-res.cloudinary.com/iu/s--yW-wwhP_--/t_full/f_auto,fl_lossy,q_75/v1371220228/smallville-finale-scene.png);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img4 {
+    width: 100%;
+    background-image: url(https://s.yimg.com/ny/api/res/1.2/2Zs7FwzGCaSb3slM_U.RJQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NjE-/https://media.zenfs.com/en/entertainment_weekly_785/a0d82df5d6858d6c192da5b7cfc3ac75);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img5 {
+    width: 100%;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMmI2OTVhNzItZTM3Zi00NzliLWI0ZGEtYTE1M2FmOTA2MWQ0XkEyXkFqcGdeQXVyNzE3NTExMjk@._V1_.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img6 {
+    width: 100%;
+    background-image: url(https://mr.comingsoon.it/imgdb/serietv/serie/16/16_hd.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    background-image: url(https://www.movienewsnet.com/wp-content/uploads/2019/09/image.png);
+}
+
+.img7 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display:flex;
+    background-image: url(http://vignette3.wikia.nocookie.net/smallville/images/4/48/SM-SE8-DVD-0002.jpg/revision/latest?cb=20091008220228);
+   
+}
+
+.img8 {
+    width: 100%;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.GAE3iLTuMWk1y28Mc5t5ygHaFj&pid=Api&P=0&h=180);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img9 {
+    width: 100%;
+    background-image: url(https://getwallpapers.com/wallpaper/full/6/d/b/1384779-smallville-wallpaper-1536x2733-for-desktop.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img10 {
+    width: 100%;
+    background-image: url(http://vignette3.wikia.nocookie.net/smallville/images/e/e8/Smallville103_479.jpg/revision/latest?cb=20100307012430);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img11 {
+    width: 100%;
+    background-image: url(http://3.bp.blogspot.com/_ZiM13AZp5jU/S7lwO4-I5UI/AAAAAAAAAlo/-C7AuBTYnlY/s1600/escapeHQ2.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img12 {
+    width: 100%;
+    background-image: url(https://3.bp.blogspot.com/-LSYaPXPm5Wg/W8Z0SKfEB9I/AAAAAAAAAzg/idPg7u2qlqUeWPokwrzhs0OeBGE022MbgCLcBGAs/s1600/a453bc77db7ae3e6d11d91bf6b1f8669.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    background-image: url(https://i.pinimg.com/originals/b1/1f/0a/b11f0ad3a364dc4d20327e2a7e595aba.jpg);
+}
+
+.img13 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display:flex;
+    background-image: url(https://i.ytimg.com/vi/yv2dNp5PKa4/maxresdefault.jpg);
+   
+}
+
+.img14 {
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/3e/b3/dc/3eb3dca143b25b016bbc17c03dcefa81.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img15 {
+    width: 100%;
+    background-image: url(https://onlineseries.com.br/wp-content/uploads/2022/06/Smallville-atriz-768x432.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img16 {
+    width: 100%;
+    background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/11/Smallville-Reckoning.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img17 {
+    width: 100%;
+    background-image: url(https://www.cinemascomics.com/wp-content/uploads/2011/05/smallville.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img18 {
+    width: 100%;
+    background-image: url(http://images2.fanpop.com/image/photos/13800000/Smallville-smallville-13895923-1680-1050.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    background-image: url(http://images2.fanpop.com/image/photos/13800000/Smallville-smallville-13895923-1680-1050.jpg);
+}
+
+.img19 {
+    width: 100%;
+    background-image: url(http://justinhartleyonline.com/gallery/albums/userpics/10002/1020Prophecy18.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+}
+
+.img20 {
+    width: 100%;
+    background-image: url(https://image.tmdb.org/t/p/original/dfuWqy2cTElxBmja99qbge7nEUI.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    background-image: url(https://image.tmdb.org/t/p/original/dfuWqy2cTElxBmja99qbge7nEUI.jpg);
+}
+
+.image:hover {
+    transform: scale(1.1);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+span {
+    color: white;
+    font-family:'Kdam Thmor Pro', sans-serif;  
+}
+
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .column {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+
+}
